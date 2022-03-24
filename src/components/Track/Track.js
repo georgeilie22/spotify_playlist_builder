@@ -6,10 +6,12 @@ class Track extends React.Component {
     return (
       <div className="Track">
         <div className="Track-information">
-          <h3></h3>
+          <h3>{/* <!-- track name will go here --> */}</h3>
           <p></p>
         </div>
-        <button className="Track-action"></button>
+        <button class="Track-action">
+          {/* <!-- + or - will go here --> */}
+        </button>
       </div>
     );
   }
