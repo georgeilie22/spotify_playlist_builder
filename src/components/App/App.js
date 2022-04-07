@@ -4,6 +4,7 @@ import SearchBar from "../SearchBar/SearchBar";
 import SearchResults from "../SearchResults/SearchResults";
 import Playlist from "../Playlist/Playlist";
 import Spotify from "../../utils/Spotify";
+import LoginModal from "../LoginModal/LoginModal";
 
 const App = () => {
   const [searchResults, setSearchResults] = useState([]);
@@ -50,6 +51,7 @@ const App = () => {
 
   return (
     <div>
+      {/* <LoginModal /> */}
       <h1>
         Ja<span className="highlight">mmm</span>ing
       </h1>
